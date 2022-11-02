@@ -1,0 +1,35 @@
+.classe1 {
+    margin-left: 0em;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: white;
+    font-style: italic;
+}
+
+.macaco {
+    border: 2px solid black;
+    background-color: black;
+}
+
+.macaco:hover {
+    background-color: red;
+}
+
+.breadcrumb {
+    padding-left: 1em;
+}
+
+.h1editado {
+    padding: 0.5em;
+    border: 1em;
+    margin: 1em;
+}
+
+.dropdown {
+    padding: 0.5em;
+}
