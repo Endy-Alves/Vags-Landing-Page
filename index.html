@@ -31,46 +31,87 @@
     </div>
   </div>
 
-
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="./images/IMG-20220924-WA0003.jpeg" alt="Primeiro Slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Jogador As e o mais bonito dos Vagarosos</h5>
-          <p>cool coolest cooler</p>
+  <!--Taquei teu negócio dentro de um GRID, oque é um grid?-->
+  <!--É como funciona a separação de blocos em uma pagina-->
+  <!--Para existir um grid ele abre com a classe 'container', a div dentro tem que abrir uma classe 'row'-->
+  <!--a classe 'row' abre um enorme espaço para 12 colunas, onde a div neto se separa com classes 'col'-->
+  <!--ai por exemplo, como ficaria um grid de duas colunas grandes na pagina: -->
+  <!-- container >> row >> col-6 e col-6-->
+  <!--  Exemplo prático   -->
+    <div class="container">
+      <div class="row">
+        <div class="col-6 bg-vermelho">
+          teste
+        </div>
+        <div class="col-6 bg-azul">
+          teste
         </div>
       </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./images/IMG-20220715-WA0013.jpg" alt="Segundo Slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>O pai dos vagarosos e o treinador</h5>
-          <p>Ensinou todos os Vags a jogar basquete, sendo o mais experiente dos Vagarosos.</p>
-        </div>
+    </div>
+  <!-- Segundo exemplo pratico -->
+  <div class="container">
+    <div class="row">
+      <div class="col-3 bg-verde">
+        teste
       </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./images/IMG_20220925_180905_252.jpg" alt="Terceiro Slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>A "mente" dos Vagarosos, é o jogador mais esperto</h5>
-          <p>Irmao mais velho do As, seu qi de basquete e tudo em geral, faz com que ele ajude e organize seu time.</p>
-        </div>
+      <div class="col-3 bg-azul">
+        teste<br>
+        teste
       </div>
-    </div class="icons">
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Próximo</span>
-    </a>
+      <div class="col-3 bg-vermelho">
+        teste
+      </div>
+      <div class="col-3 bg-amarelo">
+        teste
+      </div>
+    </div>
   </div>
 
+  <!-- Usa sempre o sistema de GRID pra deixar os espaços em volta da pagina mais responsivo-->
+
+  <!--Aqui eu abri uma section, mesma coisa que div, ela joga alguns padrões de medidas-->
+  <section class="container">
+    <div class="row"> <!--seta a classe row para abrir uma reta de 12 celulas de 'col'-->
+      <div id="carouselExampleIndicators" class="carousel slide col-12" data-ride="carousel"> <!--Nesse componente ele ta usando as 12 celulas do grid-->
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/IMG-20220924-WA0003.jpeg" alt="Primeiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Jogador As e o mais bonito dos Vagarosos</h5>
+              <p>cool coolest cooler</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/IMG-20220715-WA0013.jpg" alt="Segundo Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>O pai dos vagarosos e o treinador</h5>
+              <p>Ensinou todos os Vags a jogar basquete, sendo o mais experiente dos Vagarosos.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/IMG_20220925_180905_252.jpg" alt="Terceiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A "mente" dos Vagarosos, é o jogador mais esperto</h5>
+              <p>Irmao mais velho do As, seu qi de basquete e tudo em geral, faz com que ele ajude e organize seu time.</p>
+            </div>
+          </div>
+        </div class="icons">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
 </body>
 
