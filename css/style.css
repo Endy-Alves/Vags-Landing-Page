@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(16, 15, 15);
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 }
 
 .macaco:hover {
-    background-color: red;
+    background-color: orangered;
 }
 
 .breadcrumb {
@@ -25,11 +25,57 @@ h1 {
 }
 
 .h1editado {
+    align-items: center;
     padding: 0.5em;
     border: 1em;
     margin: 1em;
+    margin-left: 8em;
 }
 
 .dropdown {
     padding: 0.5em;
 }
+
+.dropdown-menu {
+    background-color: orangered;
+}
+
+.btn {
+    background-color: orangered;
+}
+
+.btn:hover{
+    background-color: rgb(201, 56, 3);
+}
+
+.dropdown-item:hover {
+    background-color: rgb(201, 56, 3);
+}
+
+.dropdown-item {
+    color: white;
+}
+.carousel-inner{
+    width: 100% !important;
+    height: 600px !important;
+}
+
+.d-block {
+    width: 400px !important;
+    height: 600px !important;
+}
+
+.carousel-control-next {
+    width: 15%;
+}
+
+.carousel-control-next-icon {
+    display: flex;
+    padding-right: 500px;
+}
+
+.carousel-caption {
+    padding-left: 25%;
+    top: 10em;
+}
+
