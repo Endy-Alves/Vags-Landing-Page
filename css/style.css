@@ -34,6 +34,8 @@ h1 {
 
 .dropdown {
     padding: 0.5em;
+    float: right;
+    margin-top: -10em;
 }
 
 .dropdown-menu {
@@ -53,6 +55,7 @@ h1 {
 }
 
 .dropdown-item {
+    background-color: black;
     color: white;
 }
 .carousel-inner{
