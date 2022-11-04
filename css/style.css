@@ -98,11 +98,43 @@ h1 {
     background-color: green;
 }
 
-.Edu {
-    color: palevioletred;
-}
-
 .fichas {
     margin: 7em;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+}
+
+.ficha1 {
+    padding: 2em;
+    background-color: orangered;
+    border-style: double;
+    border-color: white;
+}
+
+.ficha2 {
+    padding: 2em;
+    background-color: orangered;
+    border-style: double;
+    border-color: white;
+}
+
+.ficha3 {
+    padding: 2em;
+    background-color: orangered;
+    border-style: double;
+    border-color: white;
+}
+
+.ficha4 {
+    padding: 2em;
+    background-color: orangered;
+    border-style: double;
+    border-color: white;
+}
+
+.ficha5 {
+    padding: 2em;
+    background-color: orangered;
+    border-style: double;
+    border-color: white;
 }
