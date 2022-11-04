@@ -82,22 +82,6 @@ h1 {
     top: 10em;
 }
 
-.bg-vermelho {
-    background-color: red;
-}
-
-.bg-azul {
-    background-color: blue;
-}
-
-.bg-amarelo {
-    background-color: yellow;
-}
-
-.bg-verde {
-    background-color: green;
-}
-
 .fichas {
     margin: 7em;
     color: rgb(0, 0, 0);
@@ -137,4 +121,7 @@ h1 {
     background-color: orangered;
     border-style: double;
     border-color: white;
+}
+.sla {
+    margin: 5em;
 }
