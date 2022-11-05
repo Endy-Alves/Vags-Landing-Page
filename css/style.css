@@ -125,3 +125,8 @@ h1 {
 .sla {
     margin: 5em;
 }
+
+.logo {
+    margin-top: -12em;
+    height: 10em;
+}
