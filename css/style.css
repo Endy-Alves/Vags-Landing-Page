@@ -130,3 +130,29 @@ h1 {
     margin-top: -12em;
     height: 10em;
 }
+
+.col-3 {
+    background-color: rgb(0, 0, 0);
+}
+.col-9 {
+    background-color: rgb(0, 0, 0);
+}
+
+.insta {
+    margin-top: 3em;
+    height: 2em;
+    margin-left: 3em;
+}
+
+.face {
+    margin-top: 3em;
+    height: 2em;
+}
+
+.terms {
+    padding: 2em;
+    color: white;
+}
+.terms:hover {
+    color: rgb(206, 206, 206);
+}
