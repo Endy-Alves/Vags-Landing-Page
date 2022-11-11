@@ -157,3 +157,27 @@ h1 {
 .bg-vags {
     background-color: #e56c27;
 }
+
+@media only screen and (max-width: 600px) {
+    .macaco {
+        background-color:  orangered;
+        height: 7em;;
+    }
+    .logo {
+        margin-top: -10em;
+      height: 4em;
+    }
+    .h1editado {
+        margin-top: -5px;
+        margin-left: 20%;
+    }
+    .dropdown-menu {
+        height: 3em;
+    }
+    .btn {
+       display: none;
+    }
+    .carousel-caption {
+        height: max-content;
+    }
+  }
