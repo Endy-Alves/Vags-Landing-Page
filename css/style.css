@@ -159,10 +159,17 @@ h1 {
 }
 
 .container-fluid {
-    margin-top: 5em;
+    margin-top: 10em;
+    margin-left: 0%;
     width: 100%;
 }
 
 .final {
     color: rgb(131, 128, 128);
+}
+
+.row {
+    margin-left: -130px;
+    margin-right: -130px;
+    float: right;
 }
