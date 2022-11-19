@@ -168,3 +168,11 @@ h1 {
 .final {
     color: rgb(131, 128, 128);
 }
+
+#Mais {
+   display: none;
+}
+
+#btnleiamais {
+    margin-left: 30em;
+}
