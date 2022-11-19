@@ -179,4 +179,8 @@ h1 {
 
 #btnleiamais {
     margin-left: 30em;
+    color: #e56c27;
+    background-color: black;
+    border-width: 1px;
+    border-color: white;
 }
