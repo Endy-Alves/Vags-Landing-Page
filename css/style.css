@@ -169,8 +169,12 @@ h1 {
     color: rgb(131, 128, 128);
 }
 
-#Mais {
+#mais {
    display: none;
+}
+
+#pontos {
+    display: none;
 }
 
 #btnleiamais {
