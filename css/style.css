@@ -74,7 +74,7 @@ h1 {
 
 .carousel-control-next-icon {
     display: flex;
-    padding-right: 500px;
+    padding-right: 2em;
 }
 
 .carousel-caption {

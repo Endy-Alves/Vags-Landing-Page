@@ -1,0 +1,48 @@
+@media screen and (max-width: 648px) {
+    #dropdownMenuButton{
+        font-size: 11px;
+    }
+    .logo{
+        font-size: 12px;
+        margin-top: -18em !important;
+    }
+    .h1editado{
+        margin-left: 27% !important;
+    }
+    .macaco{
+        position: absolute;
+        width: 100%;
+        margin-top: -5em;
+    }
+    .carousel-inner{
+        margin-top: 10em;
+        margin-left: 0em;
+    }
+    .fichas{
+        width: 86%;
+    margin-left: 8% !important;
+    }
+    .lm{
+        margin-left: -110% !important;
+    }
+    .bg-escuro{
+
+    }
+    .terms{
+        padding-left: 1em !important;
+    font-size: 10px;
+    }
+    .final{
+        font-size: 9px;
+        margin-top: 0em;
+        position: absolute;
+    }
+    .insta{
+        margin-top: 3em !important;
+    position: absolute;
+    }
+    .carousel-caption{
+
+    }
+}
+    
